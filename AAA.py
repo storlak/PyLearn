@@ -8,8 +8,9 @@ while command != "quit":
     elif command == "stop":
         print("Car stopped.")
     elif command == "help":
-        print("start - to start the car")
-        print("stop - to stop the car")
-        print("quit - to exit")
+        print('''
+        start - to start the car
+        stop - to stop the car
+        quit - to exit''')
     else:
         print("I don't understand that...")
