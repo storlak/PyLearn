@@ -1,0 +1,8 @@
+# State (Data) & Method (Functionality) var bu da encapsulation
+# integers, floats,...etc any data type in Py is an object: it has STATE + FUNCTIONALTY = ATTRIBUTES
+# DOT NOTATION: Attribbutes'e ulaşmak için örnek
+# car.brand= acces the brand attribution of car object
+# car.accelerate(10, "mph")= Car Obect. accelerate Attribute. parantez içindekiler argüman. Parantez functionality
+# Mutable ve Immutable objects var. Internal state'i Değişitilen ve değiştirilemeyen:
+# IMMUTABLE Objects: Integers, strings, flotas...etc.
+# MUTABLE Objects: Lists, Dictionaries, Sets
