@@ -1,5 +1,9 @@
-my_grade = 60
-if 90 <= my_grade <= 100:
+my_grade = int(98)
+grade_letter = "a"  # tanımlamak gerekir öncesinde!
+
+if my_grade > 100 or my_grade < 0:
+    grade_letter = "Invalid"
+elif 90 <= my_grade <= 100:
     grade_letter = "A"
 elif 80 <= my_grade < 90:
     grade_letter = "B"

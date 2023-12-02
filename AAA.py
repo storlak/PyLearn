@@ -1,12 +1,23 @@
-print("Type one of the following: help, start, stop, exit")
+print("Type one of the following: help, start, stop, quit")
 command = ""
+mode = "stop"
 while command != "quit":
     command = input("> ").lower()
 
     if command == "start":
-        print("Car started...Ready to go")
+        if mode == "stop":
+            print("Car started...Ready to go!")
+            mode = ("start")
+        else:
+            print("error")
+
     elif command == "stop":
-        print("Car stopped.")
+        if mode == "start":
+            print("Car stopped.")
+            mode = ("stop")
+        else:
+            print("error")
+
     elif command == "help":
         print('''
         start - to start the car
