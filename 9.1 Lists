@@ -1,0 +1,5 @@
+* container type
+* mutable
+* heteregenous
+* sequence type ---> elements ordered and indexed.
+* lists are objects: they have state and functionality

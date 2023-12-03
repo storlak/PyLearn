@@ -1,0 +1,9 @@
+# Ordered collection of obejects.
+first, second object and so on
+and numberins starts at 0
+n sayıda object var and the last item is n-1 çünkü başlangıç index is 0
+Sequence Types:
+* lists: mutable, heteregeneous. + add, remove
+* tuples: immmutable, heteregeneous. -add, remove
+* sets:
+* dictionaries:
