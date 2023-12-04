@@ -1,0 +1,7 @@
+Strings are
+    container type
+    sequence type
+    homogenous (unicode chars)
+    immutable
+Created by using single, double quotes: "this is a string"
+indexing and lenght are same: bcs it is a sequence type

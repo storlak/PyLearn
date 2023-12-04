@@ -1,0 +1,11 @@
+Slicing is to extract ranges of elements from Sequences.
+start & stop positions (by index number)
+start is inclusive and stop is exclusive.
+for slicing [] for lists, strings and tuples etc
+last element index +1 or s[6:] and first element 0 or s [:6]
+[:] this is a shallow copy of the sequence.
+[start:stop:step]
+[2:10:2]
+    - start at 2 and include index 2
+    - stop at 10 and exclude index 10
+    - move in steps of 2
