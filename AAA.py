@@ -1,4 +1,4 @@
-rate = (5.0, 5.12)
-# apr = rate[0]
-# apy = rate[1]
-apr, apy = rate  # bu daha kısa ve daha iyi
+a = 100
+b = 3.14
+t = (b, a)
+print(b)

@@ -1,12 +1,12 @@
 from copy import deepcopy
 
 # shallow copy & deepcopy
-# even they have same collections they are separate objects!
-# for deep copy we have to import: from copy import deepcopy
-my_list = [1, 2, 3, ]
+
+my_list = [1, 2, 3, 4]
 my_copy = my_list[:]  # or my_copy = my_list.copy()
+del my_list[0]
 print(my_copy)
-del my_copy[0]
+print(my_list)
 
 # deepcopy exemple
 this_list = [["a", "b"], 2, 3]

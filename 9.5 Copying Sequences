@@ -1,0 +1,13 @@
+When we copy a sequence there are 2 types of copying:
+
+    1. shallow copy:
+        - a new copy
+        - a new sequence but same elements referring to same objects.
+        - add, remove, etc to shallow doesn't affect the original.
+        - add, remove the original will effect the shallow copy.
+    ORIGINAL IS SHALLOW COPY ------>>>> FALSE
+
+    2. deep copy: from copy import deepcopy
+        - also a new copy and a new sequence created
+        - totally new and independent objects!
+        - deepcopy == everything independent each other.
