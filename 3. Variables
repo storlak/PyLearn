@@ -1,9 +1,9 @@
-Variables = Naming objects! (label vermek gibi)
-Nasıl assign ediyoruz? = ile ama bu matematiktekinden farklı. soldakini sağa atıyor!
+Variables = Naming objects! (kind of labeling)
+How do we assign? = ile ama bu matematiktekinden farklı. soldakini sağa atıyor!
 
 Örnek:
 
-    account_balance = 1000 #we assign label account_balance to object 1000
+    account_balance = 1000 # we assign label account_balance to object 1000
     apy = 0.25 #we assign label apy to object 0.25. the label points to or (referencing) the OBJECT!
 Bu verdiğimiz etiket bir Variable yani değişken ve bu ileride değişebilir.
 
@@ -12,12 +12,12 @@ apy = 0.25 #python herşeyi önce RHS'ye sonra LHS'ye (önce sağ sonra sol) tar
 2 operands here. Python evaluates RHS first. ÖRNEK
 sqy = 1000 - 500 (önce 1000'den 500 çıkar sonra sqy'ye eşitle)
 
-Variable atarken dikkat edilecekler
-1. Case sensitive apr ile APR farklı.
+Attention while assigning variables:
+1. Case sensitive: apr != APR
 2. harf veya alt çizgi _ ile başlamalı. "var, _var, index, index1"
 3. sayı ile başlayamaz ama sonradan sayı ekleyebilirsin.
 4. Python içinde tanımlı if, True vs kullanılamaz.
-5 PeP8 style Guide var. Buraya bak.
+5. PeP8 style Guide.
 
-* Sake Case Variables ile
-account_type bu bir snake case.
+* Snake Case Variables ile
+account_type : this is a snake case.
