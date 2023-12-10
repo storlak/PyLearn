@@ -1,11 +1,13 @@
-Tuples very similar to list
-* a container and a sequence type
-* heterogeneous
-* immutable = can't be changed! (no add no remove). elements are fix no replacing.
-* () to create. , seperate. like list.
-* can contain any object.
-* (10, 20, 30) bu bir tuple ama 10, 20, 30 bu da bir tuple. parantez olmayınca da tuple.
+Tuples: very similar to list
+    * a container and a sequence type
+    * heterogeneous
+    * immutable = can't be changed! (no add no remove). elements are fix no replacing.
+    * () to create. , separate. like list.
+    * can contain any object.
+    * (10, 20, 30): this is a tuple. But this is also a tuple: 10, 20, 30
+with or without parantheses: TUPLE
 
+Example:
 * (1, 5, [10, 20], (3, 4))
    tuple - List - Tuple
             TUPLE

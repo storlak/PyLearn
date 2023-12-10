@@ -1,10 +1,10 @@
-# Ordered collection of obejects.
+# Ordered collection of objects.
 first, second object and so on
-and numberins starts at 0
+and numbering starts at 0
 n sayıda object var and the first object is 0 and last item is n-1 bcs starts at 0
 
 Sequence Types:
-* lists: mutable, heteregeneous. + add, remove
-* tuples: immmutable, heteregeneous. -add, remove
+* lists: mutable, heterogeneous. + add, remove
+* tuples: immutable, heterogeneous. -add, remove
 * sets:
 * dictionaries:

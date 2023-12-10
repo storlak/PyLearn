@@ -1,9 +1,9 @@
 # do not use == for floats for comparaison!
-0.1 + 0.1 + 0.1 = 0.3 Bu Pythonda yanlış.
+0.1 + 0.1 + 0.1 = 0.3 # wrong in python.
     * To see if the two objects are the same we use "is"
     * To see if two (compatible) objects are equal in value we use ==
 a = 1
 b = 1.0
-# is called identity comparaison operator
+# is called identity comparison operator
 a == b True
 a is b False
