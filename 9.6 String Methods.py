@@ -9,19 +9,23 @@ print(s1.casefold() == s2.casefold())
 
 # stripping
 # .lstrip() or .rstrip() or .strip() or .strip(" "), .strip("a","b","c")
+name = "ababPythonabab"
+print(name.strip("ab")) 
 
 # concatenating
 print("Hello" + " " + "World")
 
-# spilliting
+# splitting
 data = "100, 200, 300, 400"
 print(data.split(","))  # returns a list of splitted elements.
+
 # joining
 print(",".join(["10", "20", "30"]))
 data = ("ab", "cd", "ef")
 print("--".join(data))
+
 # finding substrings
-# we use in
+# we use in or index or find
 # x in xyz -----> TRUE
 # a in xyz -----> FALSE
 
