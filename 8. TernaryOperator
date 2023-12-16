@@ -2,5 +2,5 @@ var = (a - b) if a < b else (b - a)
 # ternary op 3lü. eğer ilk if condition is True o zaman ikinciye bakmıyor ve zaman kazanıyor!
 Buna short-circuit deniyor. Boolena Op içinde de vardı. and için!!!
 
-Örnek
+Örnek:
 result = a/ b != 0 else "NaN"

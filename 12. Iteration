@@ -1,0 +1,12 @@
+# Iteration
+for, while, range
+
+# range:
+    - deterministic
+    - finite
+    - memory efficient
+    - serves one by one
+# for loop:
+    - retrieves elements one at a time
+    - loop terminates when all elements iterated
+    - range objects are iterable
