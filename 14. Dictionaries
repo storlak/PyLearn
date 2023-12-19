@@ -1,0 +1,19 @@
+Dictionaries = Hash Maps
+type = dict
+dictionary: associates a data structure value to a key
+1. Both value, key ---> objetcs
+2. keys ust be hashable (str, int, bool, float...)
+3. value can be any tyep
+4. it is a collection of key:value pairs
+5. Iterable but not a sequence type.
+
+    d = {
+        "a": 67,
+        "b": 98,
+    }
+
+6. to look up we use []
+    d["a"] --> 67
+7. to replace
+    d["a"] = 72
+    d["a"] --> 72
