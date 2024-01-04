@@ -1,3 +1,4 @@
+# generating colours
 import random
 from sty import fg
 
@@ -9,5 +10,10 @@ def generateRGB():
     return red, blue, green
 
 
+def generateColour(red, blue, green):
+    return fg(red, blue, green)
+
+
 red, blue, green = generateRGB()
-print(red, blue, green)
+colour = generateColour(red, blue, green)
+print(colour, "Generating colours.")
