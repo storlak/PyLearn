@@ -11,3 +11,4 @@ def multiply(a, b):
 
 
 multiply(2, 4)
+multiply(3, 6)
