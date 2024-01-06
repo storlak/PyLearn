@@ -19,7 +19,7 @@ func1(1, e=20)
 
 def coords_to_json(
     *, longtitude, latitude
-):  # we use * to force using named arguments!!!
+):  # we use * to force using named arguments!!! no positional arguments bsc there is *
     return f'{{"longtitude": {longtitude},"latitude":{latitude} }}'
 
 
