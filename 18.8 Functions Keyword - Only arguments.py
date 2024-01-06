@@ -15,3 +15,14 @@ def func1(a, b=2, c=3, *, d=10, e, f=30):
 
 # a positional, b&c defaulted to to and 3. d defaulted to 10. e defaulted to 20. f defaulted to 30
 func1(1, e=20)
+
+
+def coords_to_json(
+    *, longtitude, latitude
+):  # we use * to force using named arguments!!!
+    return f'{{"longtitude": {longtitude},"latitude":{latitude} }}'
+
+
+coords_to_json(
+    longtitude=10, latitude=20
+)  # bcs of start we have to use named arguments. longt and lat must be named.
