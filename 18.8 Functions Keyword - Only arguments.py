@@ -1,3 +1,4 @@
+# args into a tuple - kwargs into a dictionary
 def func(a, b, *args, c):
     print(a)
     print(b)
