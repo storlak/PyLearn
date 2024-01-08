@@ -1,5 +1,4 @@
-from statistics import fmean, mean
-
-data = [10, 20, 30]
-print(fmean(data))
-print(mean(data))
+students = ["Squidward", "SpongeBob", "Patrick", "Mr. Krabs"]
+students.sort()
+for i in students:
+    print(i)
