@@ -1,3 +1,4 @@
+# sorted() is a function while sort() is method. 1st doesn't mutate 2nd mutate the list.
 # sorted() Numbers
 # sorted by default ascending order
 # sorted alywas returns a new list so original iterable never mutated

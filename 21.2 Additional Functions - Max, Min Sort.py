@@ -1,4 +1,4 @@
-# sorted does not mutate the original list.
+# sorted() does not mutate the original list.
 
 l = [1, 10, 2, 9, 3, 8]  # list
 t = (1, 10, 2, 9, 3, 8)  # tuple
