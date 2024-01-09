@@ -1,5 +1,5 @@
 # args and kwargs together.
-# args take non-keywırd kwargs take keywords arguments
+# args take non-keyword kwargs take keywords arguments
 
 
 def shipping_label(*args, **kwargs):
