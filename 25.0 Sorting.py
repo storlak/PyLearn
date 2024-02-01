@@ -4,7 +4,7 @@ print(sorted(data, key=lambda x: abs(x)))
 
 
 def key_func(c):
-    return abs(x)
+    return abs(c)
 
 
 print(sorted(data, key=key_func))
