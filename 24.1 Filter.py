@@ -9,3 +9,13 @@ positives = list(filter(lambda x: x > 0, numbers))
 negatives = list(filter(lambda x: x < 0, numbers))
 print(f"Positive numbers are: {positives}")
 print(f"Negative numbers are: {negatives}")
+
+
+# filtering longwords
+def is_long_word(word):
+    return len(word) > 5
+
+
+words = ["apple", "banana", "orange", "strawberry", "watermelon", "grape"]
+long_words = list(filter(is_long_word, words))
+print(long_words)
