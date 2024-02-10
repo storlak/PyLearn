@@ -1,8 +1,9 @@
 # import - module name
 # from - module name import
 # import - module name as ...
+# when we use from, python imports all module. In termez of size it doesn't effect anything.
 import math
-from math import sqrt  # can add ,
+from math import sqrt  # can add # for ex here Python imports (loads) all math module.
 import math as m
 
 x = math.sqrt(2)
