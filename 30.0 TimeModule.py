@@ -1,10 +1,14 @@
-from datetime import datetime
+# time module with Youtube
+import time
 
-x = datetime.now()
-print(x.year)
-print(x.strftime("%A"))
+print(time.ctime(0))  # show the eopch time of the computer
+print(time.time())  # returns current scds since eopch
 
+time_object = time.localtime()
+print(time_object)
 
-current_datetime = datetime.now()
-formatted_datetime = current_datetime.strftime("%d.%m.%Y %H:%M:%S")
-print("Formatted current date and time:", formatted_datetime)
+local_time = time.strftime("%d.%m.%Y %H:%M:%S", time_object)  # shows local time
+print(local_time)
+print("And the Oscar goes to...")
+time.sleep(3)
+print("What Oscar Bro.")
