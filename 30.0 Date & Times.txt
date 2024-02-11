@@ -12,3 +12,14 @@ EPOCH Time
 - Difference in seconds. Called also Unix or POSIX time.
 - Usually Epoch time is 1 january, 1970, 00:00:00 UTC.
 - System dependent.
+
+%Y: Represents the year with the century as a decimal number (e.g., 2024).
+%m: Represents the month as a zero-padded decimal number (e.g., 01 for January, 02 for February, etc.).
+%d: Represents the day of the month as a zero-padded decimal number (e.g., 01, 02, ..., 31).
+%H: Represents the hour (24-hour clock) as a zero-padded decimal number (e.g., 00 for midnight, 13 for 1 PM, etc.).
+%M: Represents the minute as a zero-padded decimal number (e.g., 00, 01, ..., 59).
+%S: Represents the second as a zero-padded decimal number (e.g., 00, 01, ..., 59).
+%a: Abbreviated weekday name (e.g., Mon, Tue, ..., Sun).
+%A: Full weekday name (e.g., Monday, Tuesday, ..., Sunday).
+%b: Abbreviated month name (e.g., Jan, Feb, ..., Dec).
+%B: Full month name (e.g., January, February, ..., December).
