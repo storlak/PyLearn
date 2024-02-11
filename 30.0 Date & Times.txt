@@ -1,0 +1,14 @@
+# Datetime & Time Modules
+
+1. UTC and gmt has difference. in utc no daylight saving adjustment.
+2. ISO 8601 defines strandarts for string representation for date & time.
+3. Z generally means UTC and used for 00:00
+    
+Parsing strings and time zones       
+    - dateutil
+    - pytz
+
+EPOCH Time    
+- Difference in seconds. Called also Unix or POSIX time.
+- Usually Epoch time is 1 january, 1970, 00:00:00 UTC.
+- System dependent.
