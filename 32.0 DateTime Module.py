@@ -25,3 +25,8 @@ st2 = datetime.datetime.utcnow()  # utc
 print(st)
 print(st1)
 print(st2)
+
+# converting to iso format
+s = "2020-04-02T18:30:30-07:00"
+dt3 = datetime.datetime.fromisoformat(s)
+print(dt3)
