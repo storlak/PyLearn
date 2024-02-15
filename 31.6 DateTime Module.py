@@ -11,7 +11,7 @@ tz_CDT = timezone(timedelta(hours=-5), "CDT")
 dt = datetime(year=2024, month=4, day=12, hour=22, minute=28, tzinfo=tz_EDT)
 print(dt)
 
-# converting EDT to CDT
+# converting EDT to CDT and to UTC
 dt = dt.astimezone(tz_CDT)
 print(dt)
 dt_utc = dt.astimezone(timezone.utc)
