@@ -3,6 +3,7 @@
 1. UTC and gmt has difference. in utc no daylight saving adjustment.
 2. ISO 8601 defines strandarts for string representation for date & time.
 3. Z generally means UTC and used for 00:00
+4. Convert all UTC and work with UTC and naive timezones!!!
     
 Parsing strings and time zones       
     - dateutil
@@ -11,7 +12,7 @@ Parsing strings and time zones
 EPOCH Time    
 - Difference in seconds. Called also Unix or POSIX time.
 - Usually Epoch time is 1 january, 1970, 00:00:00 UTC.
-- System dependent.
+- Operation System dependent.
 
 %Y: Represents the year with the century as a decimal number (e.g., 2024).
 %m: Represents the month as a zero-padded decimal number (e.g., 01 for January, 02 for February, etc.).
