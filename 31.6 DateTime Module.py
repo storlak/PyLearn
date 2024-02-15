@@ -14,3 +14,5 @@ print(dt)
 # converting EDT to CDT
 dt = dt.astimezone(tz_CDT)
 print(dt)
+dt_utc = dt.astimezone(timezone.utc)
+print(dt_utc)
