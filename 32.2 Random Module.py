@@ -12,6 +12,6 @@ sample1 = random.sample(my_string, 5)
 print(sample1)  # Output will be a random sample of 5 characters from my_string
 
 # random.sample example 3
-my_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+my_set = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 sample2 = random.sample(my_set, 4)
 print(sample2)  # Output will be a random sample of 4 num from the set.
