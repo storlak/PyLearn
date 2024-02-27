@@ -12,3 +12,8 @@ math.gcd(10, 20)  # greatest common diviser
 my_list = [1, 2, 3, 4]
 print(sum(my_list))
 # math module fsum works with floats better
+
+# math.prod
+values = [1, 2, 3, 4]
+print(math.prod(values))  # multiplies all
+print(math.prod(values, start=10))  # multiplies all starting from 10
