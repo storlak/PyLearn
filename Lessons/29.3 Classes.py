@@ -15,16 +15,24 @@ class SoftWareEngineer(Employee):  # inheriting from Employee
         super().__init__(name, age, salary)
         self.level = level
 
+    def debug(self):
+        print(f"{self.name} is debugging...")
+
 
 class Designer(Employee):
-    pass
+    def draw(self):
+        print(f"{self.name} is drawing...")
 
 
 se = SoftWareEngineer("Max", 25, 6000, "Junior")
+print("**SOFTWARE ENGINEER**")
 print(se.name, se.age)
 se.work()
 print(se.level)
-
+se.debug()
+print()
+print("**DESIGNER**")
 d = Designer("Philippe", 27, 8000)
 print(d.name, d.age)
 d.work()
+d.draw()
