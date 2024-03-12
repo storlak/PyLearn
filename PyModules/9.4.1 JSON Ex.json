@@ -1,0 +1,17 @@
+{
+    "name": "Eric Smith",
+    "age": 32,
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "(212) 555-3276"
+        },
+        {
+            "type": "work",
+            "number": "(332) 555-1234"
+        }
+    ],
+    "spouse": null,
+    "children": [],
+    "employed": true
+}
