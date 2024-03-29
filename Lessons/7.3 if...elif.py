@@ -1,5 +1,5 @@
 my_grade = int(98)
-grade_letter = "a"  # tanımlamak gerekir öncesinde!
+grade_letter = "a"  # needs to be assigned in order to be printed
 
 if my_grade > 100 or my_grade < 0:
     grade_letter = "Invalid"
