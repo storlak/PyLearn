@@ -13,5 +13,5 @@ print(zoo[1:8:2])
 print(zoo[0::2])
 print(zoo[1::2])
 print(zoo[-3:])
-zoo.reverse()
+zoo.reverse()  # reversing the list
 print(zoo)
