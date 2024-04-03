@@ -12,7 +12,7 @@
 
 ### Folders
 - You can find all courses in the Lessons folder.
-- Exercises folder include exc. of each course.
+- Exercises of this course are in the PyLearn-Exc repo.
 - PyModules are courses about Oython Modules & Libraries.
 
 ### Additional Notes
