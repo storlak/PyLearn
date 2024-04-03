@@ -1,4 +1,11 @@
 # PyLearn Content
+
+![Static Badge](https://img.shields.io/badge/Udemy-Fred%20Baptiste-blue?labelColor=purple)
+![Static Badge](https://img.shields.io/badge/python-beginner-yellow?logo=python)
+![Static Badge](https://img.shields.io/badge/IDE-VsCode-blue)
+
+### Contents & Intro
+
 - Learning Python via Fred Baptiste Udemy course. 
 - These are the notes and exercises taken during the Udemy Courses by Dr. Fred Baptiste.
 - Notes include English and some Turkish explanations and many repetitions.
