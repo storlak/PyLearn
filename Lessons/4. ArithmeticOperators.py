@@ -4,7 +4,7 @@ print(18 / 4)
 print(2**8)
 print(2 ** (-8))
 
-# be careful about this. - üssün işaretinin solunda olunca paranteze al
+# be careful about this. - if * sign is on the left use ()
 print((-4) ** 0.5)
 
 n = 10
