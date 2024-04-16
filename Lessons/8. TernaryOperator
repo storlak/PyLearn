@@ -1,6 +1,6 @@
 var = (a - b) if a < b else (b - a)
-# ternary op 3lü. eğer ilk if condition is True o zaman ikinciye bakmıyor ve zaman kazanıyor!
-Buna short-circuit deniyor. Boolena Op içinde de vardı. and için!!!
+# ternary op 3lü. if the first "if" condition is True then it doesn't check snd and 3rd.
+This is called short-circuit. It is valid also for Boolena and and!
 
-Örnek:
+Ex::
 result = a/ b != 0 else "NaN"
