@@ -14,7 +14,7 @@
 
 - You can find all courses in the Lessons folder.
 - Exercises of this course are in the PyLearn-Exc repo.
-- PyModules are courses about Oython Modules & Libraries.
+- PyModules are courses about Python Modules & Libraries.
 
 ### Additional Notes
 
