@@ -8,8 +8,8 @@ print(1.0)
 
 # string
 print("hello")
-print("Number 53 is a string")
-print("I am from python".upper)
+print("Number 53 is a string.")
+print("I am from python".upper())
 my_name = input("Enter your name: ")
 print(f"Hello {my_name}".capitalize)
 
