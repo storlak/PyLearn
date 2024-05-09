@@ -1,3 +1,5 @@
+# data types
+
 # integer
 print(1)
 
