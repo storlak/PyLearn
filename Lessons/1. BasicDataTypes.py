@@ -17,9 +17,9 @@ print(f"Hello {my_name}".capitalize)
 print(format(0.1, ".25f"))
 print(0.1 == 0.1000000000000000055511151)  # not equal or same but still True!
 print(0.1 + 0.1 + 0.1 == 0.3)  # false!!!
-print(
-    abs(0.1 + 0.1 + 0.1 - 0.3)
-)  # abs absolute value. So we can see the differnce in the numbers.
+
+# abs absolute value. So we can see the differnce in the numbers.
+print(abs(0.1 + 0.1 + 0.1 - 0.3))
 print(format(0.1 + 0.1 + 0.1, ".25f"))
 print(0.1 + 0.1 + 0.1 == 0.3000000000000000444089210)  # == True!!!
 
